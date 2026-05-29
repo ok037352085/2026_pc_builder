@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(npm install -g pnpm@10.4.1)",
+      "PowerShell(Stop-Process -Name \"pnpm\" -ErrorAction SilentlyContinue)",
+      "PowerShell(New-Item -ItemType Directory -Path \"c:\\\\Users\\\\USER\\\\Desktop\\\\gaming_pc_2026\\\\.github\\\\workflows\" -Force)",
+      "PowerShell(cd \"c:\\\\Users\\\\USER\\\\Desktop\\\\gaming_pc_2026\"; $env:VITE_BASE_URL=\"/gaming_pc_2026/\"; pnpm run build:pages 2>&1)"
+    ]
+  }
+}
